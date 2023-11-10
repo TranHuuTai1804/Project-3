@@ -384,3 +384,161 @@ a {
     border-bottom: #2e80ce solid 2px;
     color: #2e80ce;
 }
+
+/* About */
+
+.about {
+    margin: 170px 0;
+}
+
+.about__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 130px;
+}
+
+.about__img--1 {
+    position: absolute;
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about__img--2 {
+    position: relative;
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about__img--2 {
+    margin: 121px 0 0 238px;
+}
+
+.about__content {
+    width: 470px;
+    height: 326px;
+}
+
+.about__heading {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #10315c;
+}
+
+.about__desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #575f66;
+}
+
+.about__btn {
+    margin-top: 38px;
+}
+
+.about__btn:hover {
+    opacity: 0.9;
+}
+
+/* Team */
+.team {
+    margin-top: 170px;
+}
+
+.team__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__heading {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #10315c;
+}
+
+.team__btn {
+    margin-top: 38px;
+}
+
+.team__our {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 34px;
+}
+
+.team__background {
+    padding-top: 28px;
+    width: 270px;
+    height: 318px;
+    background: #eaf6ff;
+}
+
+.team__member--doctor {
+    width: 262px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.team__name {
+    margin-left: 67px;
+    margin-top: 12px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #10375c;
+}
+
+.team__name--content {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #575f66;
+}
+
+.team__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 18px;
+    margin-top: 38px;
+}
+
+.team__control--btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    outline: none;
+    color: #575f66;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.team__control--btn:hover{
+    color: #fff;
+    border-color: #2e80ce;
+    background: #2e80ce;
+}
+
+.team__control--next{
+    rotate: 180deg; /* Xoay 180 
+}
