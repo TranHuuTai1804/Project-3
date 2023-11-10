@@ -485,7 +485,13 @@ a {
     background: #eaf6ff;
 }
 
+.team__member--doctor:hover{
+    transform: scale(0.9);
+    transition: 0.25s;
+}
+
 .team__member--doctor {
+    margin-bottom: 12px;
     width: 262px;
     height: 290px;
     object-fit: cover;
@@ -494,7 +500,7 @@ a {
 
 .team__name {
     margin-left: 67px;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 28px;
@@ -539,6 +545,6 @@ a {
     background: #2e80ce;
 }
 
-.team__control--next{
-    rotate: 180deg; /* Xoay 180 
+.team__control--next {
+    rotate: 180deg; /* Xoay 180 */
 }
